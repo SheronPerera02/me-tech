@@ -14,6 +14,7 @@ const Card = ({ houseInfo }: CardProps) => {
           className="rounded-[16px]"
           src={houseInfo.image}
           alt=""
+          priority={true}
           fill
           style={{ objectFit: "cover" }}
         />
