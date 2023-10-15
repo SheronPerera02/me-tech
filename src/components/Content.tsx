@@ -1,5 +1,6 @@
-import { HouseInfo } from "../types";
 import Card from "./Card";
+
+import { HouseInfo } from "../types";
 
 type ContentProps = {
   houseInfoList: HouseInfo[];

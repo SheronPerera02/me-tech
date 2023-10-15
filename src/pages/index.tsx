@@ -1,9 +1,11 @@
 import { Inter } from "next/font/google";
+import { GetServerSideProps } from "next";
+import axios from "axios";
+
 import Header from "../components/Header";
 import Content from "../components/Content";
-import { GetServerSideProps } from "next";
+
 import { HouseInfo } from "../types";
-import axios, { AxiosResponse } from "axios";
 
 const inter = Inter({ subsets: ["latin"] });
 
